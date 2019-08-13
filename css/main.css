@@ -21,9 +21,9 @@ html, body {
 .perfil{
     padding: 45px;
     width:150px;
-    height:150px;
-    
+    height:150px;   
 }
+
 .name{
     text-align: center;
     color: white;
@@ -38,13 +38,15 @@ html, body {
 .mainmenu{
     list-style: none;
 }
+.navigation a:hover {
+    border-bottom:2px solid #fff;
+    width: 100%;
+}
 .insta, .whats{
     width:30px;
     height:30px;
 }
-.social-links{  
-    list-style: none;
-}
+
 .navigation ul li a{
     padding: 20px 0%;
     display: inline-block;
@@ -54,15 +56,18 @@ html, body {
     text-decoration: none;
     
 }
-.social-links ul li{
-    margin-left: 30px;
-    display: inline-block;
-    
+.social-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-flex;
 }
 .content{
-    width:70%; 
+    width:75%; 
     margin-left: 300px;
     font-family: cursive;
     margin-right: auto;
     color:black;
   }
+.content h1{
+    border-bottom:3px solid black;
+}
