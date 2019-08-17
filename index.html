@@ -3,15 +3,22 @@
 
 <head>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="480px,initial-scale=1">
+    <link rel="stylesheet"  media="screen and (max-width: 320px)" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="icon" type="image/png"  href="img/icon.png"/>
+    
     <title>Portfólio-Márcio Júnior</title>
 </head>
 
 <body>
     <div class="container">
         <div class="painel-menu">
-            <a href="index.html">
+                
+                <label for="bt_chk" class="hide-menu-btn">
+                        <i class="fas fa-times"></i>
+                </label>
                 <img class="perfil" title="Início" src="img/perfil.jpg" />
             </a>
 
@@ -33,7 +40,8 @@
 					<li>
                         <a class="four" href="">Em que já trabalhei?</a>
 					</li>
-				</ul>
+                </ul>
+                
             </nav>
             <div class="social-links">
             <h4 class="social">Redes Sociais</h4>
@@ -66,7 +74,11 @@
         </div>
         </div>
         <div class="content">
-            <h1>Olá, meu nome é Márcio Brandão Júnior, </br> Estudante de Engenharia de Software.</h1>
+                <input type="checkbox" id="bt_chk">
+                <label for="bt_chk" class="show-menu-btn">
+                        <i class="fas fa-bars"></i>
+                </label>
+            </br><h1>SOBRE MIM... </h1>
             <p>ESTE PORTFÓLIO ESTÁ EM DESENVOLVIMENTO!</p>
         </div>
 </body>
