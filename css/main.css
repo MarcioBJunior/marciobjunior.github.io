@@ -25,9 +25,10 @@ html, body {
 .perfil{
     margin-top: 20px;
     padding: 20px;
-    width:85%;
-    height:120px; 
-    border-radius: 20%;
+    margin-left: 15%;
+    width:50%;
+    height:18%; 
+    border-radius: 100%;
       
 }
 
@@ -150,12 +151,12 @@ text-align: center;
         box-sizing: border-box;
     }
     .perfil{
-        margin-top: 10%;
-        margin-left: 25%;
-        padding: 0px;
-        width:50%;
+        margin-top: 20px;
+        padding: 20px;
+        margin-left: 30%;
+        width:30%;
         height:15%; 
-        border-radius: 50%;
+        border-radius: 100%;
           
     }
     
@@ -170,7 +171,7 @@ text-align: center;
         color: #fff;
         font-family:cursive;
         text-align: center;
-        margin-right: auto;
+        
     }
     .mainmenu{
         list-style: none;
@@ -202,7 +203,7 @@ text-align: center;
     }
     
     .navigation ul li a{
-        padding: 15px 0%;
+        padding: 5% 0%;
         margin-left: 0%;
         display: inline-block;
         font-size: 14px;    
@@ -218,10 +219,10 @@ text-align: center;
     .social-links ul li {
         float: left;
         list-style-type: none;     /* remoção dos bullets.                                 */
-        margin-left: 12%;              
+        margin-left: 8%;              
         box-sizing: border-box;    /* medidas são de borda à borda, o padding não é acrescentado.  */
-        height:25%;   
-        padding: 3px;
+       
+        padding: 1%;
         
     }
     
