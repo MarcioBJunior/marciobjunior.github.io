@@ -114,6 +114,8 @@ text-align: center;
     width: 100%;
     border-bottom:3px solid rgb(255, 255, 255);
 }
+#warning-message { 
+    display: none; }
 
 
 /* RESPONSIVO CELULAR BASE IPHONE 6/7/8..*/
@@ -240,8 +242,11 @@ text-align: center;
      font-size: 110%;
      color: #fff;
     }
+    #warning-message { 
+        display: none; }
     
 }
+
 
 /* RESPONSIVO TABLET BASE IPAD */
 
@@ -249,3 +254,22 @@ text-align: center;
     
 }
 
+
+
+@media only screen and (orientation:landscape){
+    html, body {
+        font-family: monospace;
+        margin: 0px;
+        background-color: white;
+        height: 100%;
+    }
+
+    .painel-menu{
+        visibility: hidden;
+    }
+    #warning-message { 
+        margin-left: 15%;
+        color: red;
+        display:block; 
+    }
+}
