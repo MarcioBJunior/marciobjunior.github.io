@@ -157,9 +157,17 @@ text-align: center;
 
  .content p {
     text-align: justify;
-    text-indent: 3%;
+    text-indent: 6%;
     margin-left: 4%;
     margin-right: 4%;
+ }
+
+ .board ul li {
+     margin-right: 5%;
+ }
+
+ .board ul {
+     margin-right: 5%;
  }
 
     #bt_chk:checked ~ .painel-menu {
@@ -171,7 +179,8 @@ text-align: center;
     #bt_chk:checked ~ .show-menu-btn{
         visibility: hidden;
     }
-
+    
+    
     .show-menu-btn,.hide-menu-btn{
         display: block;
         color: #fff;
@@ -237,7 +246,7 @@ text-align: center;
         margin-right: 0%;
         
     }
-       
+    
     .insta, .whats{
         width:30px;
         height:30px;
