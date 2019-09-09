@@ -1,7 +1,7 @@
 html, body {
     font-family: monospace;
     margin: 0px;
-    background-color: rgba(0, 0, 0, 0.863);
+    background-color: rgb(0, 0, 0);
     scroll-behavior: smooth;
    
 }
@@ -13,7 +13,7 @@ html, body {
 
 .painel-menu{
     background: rgb(0,0,0);
-    background: linear-gradient(302deg, rgba(0,0,0,1) 19%, rgba(92,92,92,1) 100%);
+    background: linear-gradient(302deg, rgba(0,0,0,1) 25%, brown 165%);
     width: 240px;
     height: 100%;
     position: fixed;
@@ -68,7 +68,7 @@ html, body {
    visibility: hidden;
 }
 .navigation a:hover {
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background: linear-gradient(302deg, rgba(0,0,0,1) 25%, brown 165%);
     padding: 20px;
     width: 80%;
 
@@ -101,6 +101,12 @@ html, body {
     
 }
 
+
+.board li{
+    color: brown;
+    list-style: none;
+}
+
 .footer{
 text-align: center;
  padding: 45px;
@@ -116,23 +122,23 @@ text-align: center;
     font-size: 150%;
     color:white;
   }
+
+  .links{
+      list-style: none;
+      color: white;
+  }
+
+  .content p{
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-indent: 3%;
+  }
 .content h1{
     width: 100%;
-    border-bottom:3px solid rgb(255, 255, 255);
+    border-bottom:3px solid white;
 }
 
-.content p{
-   
-    height: 100%;
-    background: linear-gradient(to right, #4343438e 0%, black 100%);
-    color: #FFF;
-    padding: 20px;
-    border: 2px solid #CCC;
-    text-indent: 3%;
-    margin-left: 2%;
-    margin-right: 5%;
-    text-align: justify;
-}
 #warning-message { 
     display: none; }
 
@@ -148,6 +154,13 @@ text-align: center;
         background-color: rgba(0, 0, 0, 0.863);
         scroll-behavior: smooth;
     }
+
+ .content p {
+    text-align: justify;
+    text-indent: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+ }
 
     #bt_chk:checked ~ .painel-menu {
         visibility: visible;
@@ -168,7 +181,7 @@ text-align: center;
     .painel-menu{
        
         background: rgb(0,0,0);
-        background: linear-gradient(302deg, rgb(0, 0, 0) 19%, rgba(92, 92, 92, 0.87) 100%);
+        background: linear-gradient(302deg, rgba(0, 0, 0, 0.903) 25%, rgba(165, 42, 42, 0.903) 165%);
         height: 100%;
         width: 100%;
         visibility: hidden;
@@ -222,13 +235,6 @@ text-align: center;
         margin-left: 5%;
         width: 90%;
         margin-right: 0%;
-        
-    }
-    .content p {
-        text-indent: 3%;
-        margin-left: 5%;
-        margin-right: 5%;
-        text-align: justify;
         
     }
        
