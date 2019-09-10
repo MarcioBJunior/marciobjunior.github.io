@@ -3,316 +3,133 @@ html, body {
     margin: 0px;
     background-color: rgb(0, 0, 0);
     scroll-behavior: smooth;
-   
 }
 
-.container{
+.container {
     display: flex;
     box-sizing: border-box;
 }
 
-.painel-menu{
-    background: rgb(0,0,0);
-    background: linear-gradient(302deg, rgba(0,0,0,1) 25%, brown 165%);
+.painel-menu {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(302deg, rgba(0, 0, 0, 1) 25%, brown 165%);
     width: 240px;
     height: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-.perfil{
+.perfil {
     margin-top: 20px;
     padding: 20px;
     margin-left: 17%;
-    width:50%;
-    height:18%; 
+    width: 50%;
+    height: 18%;
     border-radius: 100%;
-      
 }
 
-.name{
+.name {
     text-align: center;
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
-.social{
-    margin-top: 40%;
-    color: #fff;
-    font-family:cursive;
-    text-align: center;
-}
-.mainmenu{
+
+.mainmenu {
     list-style: none;
     margin-top: 50px;
 }
+
 .navigation, .painel-menu {
     color: #fff;
 }
 
 /*Personalizando btn menu*/
-.show-menu-btn,.hide-menu-btn,.show-top-btn{
-    
-    font-size:30px;
+
+.show-menu-btn, .hide-menu-btn, .show-top-btn {
+    font-size: 30px;
     float: right;
     padding: 3%;
     cursor: pointer;
     display: none;
 }
-/**/
-#bt_chk{
+
+#bt_chk {
     position: absolute;
-   visibility: hidden;
+    visibility: hidden;
 }
+
 .navigation a:hover {
-    background: linear-gradient(302deg, rgba(0,0,0,1) 25%, brown 165%);
+    background: linear-gradient(302deg, rgba(0, 0, 0, 1) 25%, rgb(255, 255, 255) 145%);
     padding: 20px;
     width: 80%;
-
+    border-radius: 3px;
 }
 
-
-.insta, .whats{
-    width:30px;
-    height:30px;
+.insta, .whats {
+    width: 30px;
+    height: 30px;
 }
 
-.navigation ul li a{
+.navigation ul li a {
     padding: 15px 0%;
     margin-left: 0px;
     display: inline-block;
-    font-size: 14px;    
-
+    font-size: 14px;
     /* visual do texto */
     color: #fff;
     text-decoration: none;
-    
 }
+
 .social-links ul li {
     float: left;
-    list-style-type: none;     /* remoção dos bullets.                                 */
-    margin:2px;                  
-    box-sizing: border-box;    /* medidas são de borda à borda, o padding não é acrescentado.  */
-    height:25%;   
+    list-style-type: none;
+    /* remoção dos bullets.                                 */
+    margin: 2px;
+    margin-top: 5%;
+    height: 25%;
     padding: 3px;
-    
 }
 
-
-.board li{
+.board li {
     color: brown;
     list-style: none;
 }
 
-.footer{
-text-align: center;
- padding: 45px;
- color: #fff;
+.footer {
+    text-align: center;
+    padding: 45px;
+    color: #fff;
 }
-.content{
-    
+
+.content {
     margin-left: 260px;
     height: 100%;
     padding-bottom: 25%;
     font-family: monospace;
     margin-bottom: 0px;
     font-size: 150%;
-    color:white;
-  }
+    color: white;
+}
 
-  .links{
-      list-style: none;
-      color: white;
-  }
+.links {
+    list-style: none;
+    color: white;
+}
 
-  .content p{
+.content p {
     text-align: justify;
     margin-left: 4%;
     margin-right: 4%;
     text-indent: 3%;
-  }
-.content h1{
+}
+
+.content h1 {
     width: 100%;
-    border-bottom:3px solid white;
+    border-bottom: 3px solid white;
 }
 
-#warning-message { 
-    display: none; }
-
-
-/* RESPONSIVO CELULAR BASE IPHONE 6/7/8..*/
-
-@media screen and (max-width: 720px) {
-    
-    
-    html, body {
-        font-family: monospace;
-        margin: 0px;
-        background-color: rgba(0, 0, 0, 0.863);
-        scroll-behavior: smooth;
-    }
-
- .content p {
-    text-align: justify;
-    text-indent: 6%;
-    margin-left: 4%;
-    margin-right: 4%;
- }
-
- .board ul li {
-     margin-right: 5%;
- }
-
- .board ul {
-     margin-right: 5%;
- }
-
-    #bt_chk:checked ~ .painel-menu {
-        visibility: visible;
-        -webkit-transform: translate(0, 0);
-        -ms-transform: translate(0, 0);
-        transform: translate(0, 0);
-    }
-    #bt_chk:checked ~ .show-menu-btn{
-        visibility: hidden;
-    }
-    
-    
-    .show-menu-btn,.hide-menu-btn{
-        display: block;
-        color: #fff;
-         
-     }
-
-    .painel-menu{
-       
-        background: rgb(0,0,0);
-        background: linear-gradient(302deg, rgba(0, 0, 0, 0.903) 25%, rgba(165, 42, 42, 0.903) 165%);
-        height: 100%;
-        width: 100%;
-        visibility: hidden;
-        text-shadow: 0 1px 1px rgba(0,0,0,0.1);
-        -webkit-transition: all 500ms ease;
-        transition: all 500ms ease;
-        -webkit-transform: translate(100%, 0);
-        -ms-transform: translate(100%, 0);
-        transform: translate(100%, 0);
-    }
-    .perfil{
-        margin-top: 20px;
-        padding: 20px;
-        margin-left: 30%;
-        width:30%;
-        height:15%; 
-        border-radius: 100%;
-          
-    }
-    
-    .name{
-        text-align: center;
-        color: white;
-        font-family:Arial, Helvetica, sans-serif;
-        
-    }
-    .social{
-        margin-top: 10%;
-        color: #fff;
-        font-family:Arial, Helvetica, sans-serif;
-        font-size: 100%;
-        text-align: center;
-        
-    }
-    .mainmenu{
-        list-style: none;
-        margin-left: 0%;
-        margin-top: 16%;
-        padding: 0px;
-       
-    }
-    .content{
-        width:100%; 
-        margin-left: 0%;
-        font-family: monospace;
-        font-size: 150%;
-        color:white;
-        
-      }
-    .content h1{
-        margin-left: 5%;
-        width: 90%;
-        margin-right: 0%;
-        
-    }
-    
-    .insta, .whats{
-        width:30px;
-        height:30px;
-    }
-    
-    .navigation ul li a{
-        padding: 3% 0%;
-        margin-left: 0%;
-        display: inline-block;
-        font-size: 120%;    
-    
-        /* visual do texto */
-        color: #fff;
-        text-decoration: none;
-        
-    }
-    .navigation ul li{
-        text-align: center;
-    }
-    .social-links ul li  {
-        float: left;
-        list-style-type: none;     /* remoção dos bullets.                                 */
-        margin-left: 12%;                     
-        padding: 0%;
-        
-    }
-    
-    .footer{
-    text-align: center;
-     
-     font-size: 110%;
-     color: #fff;
-    }
-    #warning-message { 
-        display: none; }
-    
-}
-
-
-/* RESPONSIVO TABLET BASE IPAD */
-
-@media screen and (min-width: 1024px) {
-    
-}
-
-
-
-@media screen and (min-width: 320px) and (max-width: 823px) and (orientation:landscape){
-    html, body {
-       
-       position: fixed; 
-    }
-    .content{
-        visibility: hidden;
-    }
-
-    .painel-menu{
-        visibility: hidden;
-    }
-    .show-menu-btn{
-        visibility: hidden;
-    }
-    #warning-message { 
-        margin-top: 10%;
-      text-align: center;
-        color: rgba(255, 255, 255, 0.808);
-        display: block;
-    }
+#warning-message {
+    display: none;
 }
