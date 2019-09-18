@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/button_flut.css" />
     <link rel="stylesheet" type="text/css" href="css/main_mobile.css" />
+    <link rel="stylesheet" type="text/css" href="css/main_tablet.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="icon" type="image/png" href="img/icon.png" />
 
@@ -18,16 +19,15 @@
     </label>
 
     <body>
-
         <input type="checkbox" id="bt_chk">
         <div class="painel-menu">
             <label for="bt_chk" class="hide-menu-btn">
                 <i class="fas fa-times"></i>
             </label>
-            <img class="perfil" title="Início" src="img/perfil.jpg" />
+            <img class="perfil" title="Início" src="img/perfil.png" />
 
-            <h3 class="name">Márcio Júnior</h3>
-            <nav class="navigation" >
+            <h3 class="name" id="b">Márcio Júnior</h3>
+            <nav class="navigation">
                 <ul class="mainmenu">
                     <li>
                         <a href="#one">Sobre mim</a>
@@ -90,45 +90,43 @@
         <section id="one" class="content">
             </br>
             <h1>SOBRE MIM </h1>
-                <p>Meu nome é Márcio Brandão Júnior, tenho 19 anos, um apaixonado por tecnologia, 
-                        iniciei minha vida na programação no ano de 2017, logo no ano seguinte
-                        decidi entrar no BES(Bacharelado em Engenharia de Software) na UCSAL(Universidade 
-                        Católica de Salvador) onde estou até o presente momento no 4º semestre. </p>
-                <p>Gosto muito de desenvolvimento Front-End, desenvolvimento Mobile e Segurança da Informação.
-                Tenho como objetivo aprender, aprender e aprender :), principalmente adquirir novos conhecimentos, adentrar 
-                no mercado de trabalho para aprimorar  o que tenho conhecimento, além de utilizar meus conhecimentos 
-                para desenvolver tecnologias inovadoras e ajudar a sociedade.
-                </p>
-               
-                
-        
+            <p>Meu nome é Márcio Brandão Júnior, tenho 19 anos. Sou apaixonado por tecnologia,
+                iniciei minha vida em T.I através de cursos online no ano de 2017. Logo no ano seguinte
+                decidi entrar no BES(Bacharelado em Engenharia de Software) na UCSAL(Universidade
+                Católica de Salvador) onde estou atualmente, no 4º semestre. </p>
+            <p>Gosto muito de desenvolvimento Front-End, desenvolvimento Mobile e Segurança da Informação.
+                Tenho como objetivo aprender, aprender e aprender :), adquirir novos conhecimentos, e
+                adentrar
+                no mercado de trabalho para aprimorar o que já tenho de conhecimento, além de utilizar meu empenho
+                para desenvolver tecnologias inovadoras.
+            </p>
         </section>
         <section id="two" class="content">
             </br>
             <h1>O QUE EU SEI? </h1>
             <div class="board">
-                    <ul>
-                        <h4>DESENVOLVIMENTO WEB:</h4>
-                        <li>HTML - CSS - Bootstrap</li>
-                        <h4>LINGUAGENS DE PROGRAMAÇÃO:</h4>
-                        <li>Java - JavaScript</li>
-                        <h4>DESENVOLVIMENTO MOBILE:</h4>
-                        <li>AndroidStudio</li>
-                        <h4>BANCO DE DADOS:</h4>
-                        <li>PostGreSQL - Node.js - MongoDB</li>
-                    </ul>  
+                <ul>
+                    <h4>DESENVOLVIMENTO WEB:</h4>
+                    <li>HTML - CSS - Bootstrap</li>
+                    <h4>LINGUAGENS DE PROGRAMAÇÃO:</h4>
+                    <li>Java - JavaScript</li>
+                    <h4>DESENVOLVIMENTO MOBILE:</h4>
+                    <li>AndroidStudio</li>
+                    <h4>BANCO DE DADOS:</h4>
+                    <li>PostGreSQL - MongoDB</li>
+                </ul>
             </div>
         </section>
         <section id="three" class="content">
             </br>
             <h1>COMO POSSO SER ÚTIL? </h1>
             <div class="board">
-                    <ul>
-                        <h4>-ANÁLISE DE SISTEMAS</h4>
-                        <h4>-DESENVOLVIMENTO DE SOFTWARE</h4>
-                        <h4>-PROJETOS DE SOFTWARE</h4>
-                        <h4>-TESTE E QUALIDADE DE SOFTWARE</h4>  
-                    </ul>  
+                <ul>
+                    <h4>-ANÁLISE DE SISTEMAS</h4>
+                    <h4>-DESENVOLVIMENTO DE SISTEMAS</h4>
+                    <h4>-PROJETOS DE SOFTWARE</h4>
+                    <h4>-TESTE E QUALIDADE DE SOFTWARE</h4>
+                </ul>
             </div>
         </section>
         <section id="four" class="content">
@@ -138,12 +136,13 @@
         </section>
 
         <div class="fab">
-            <button class="main" id="flutuante" >
+            <button class="main" id="flutuante">
                 <a href="#one" id="top"></a>
             </button>
         </div>
 
         <script src="js/button_flut.js"></script>
+        <script src="js/menu.js"></script>
     </body>
 </div>
 
