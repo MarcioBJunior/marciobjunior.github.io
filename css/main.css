@@ -113,9 +113,11 @@ html, body {
     color: white;
 }
 
-.links {
-    list-style: none;
+.links{
+    
     color: white;
+    text-decoration: none;
+    
 }
 
 .content p {
